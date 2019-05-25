@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #7fcbc5;
 }
 #self-photo {
-    width: 20%;
+    width: 30%;
+    /* min-width: 200px; */
     max-width: 300px;
     border-radius: 11px;
     box-shadow: 5px 5px 8px rgba(71, 71, 71, 0.7);
@@ -126,7 +127,7 @@ h1 {
     height: 240px;
     background-image: url('../img/keyboard.png');
     background-size: cover;
-    margin-top: 75px;
+    margin-top: 45px;
 }
 
 /* Projects Section */
@@ -169,7 +170,7 @@ section#projects .section-header {
     box-sizing: border-box;
 }
 .img-padding {
-    padding: 15px;
+    padding: 45px;
 }
 .project-tile a {
     color: #871277;
