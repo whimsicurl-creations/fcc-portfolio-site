@@ -109,6 +109,13 @@ h1 span {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 26px;
 }
+#hero-img {
+    width: 100%;
+    height: 240px;
+    background-image: url('../img/keyboard.png');
+    background-size: cover;
+    margin-top: 75px;
+}
 
 /* Projects Section */
 section#projects {
