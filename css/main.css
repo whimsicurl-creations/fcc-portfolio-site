@@ -1,0 +1,16 @@
+/* Color Scheme:
+    #fffefc background - body
+    #871277 dark purple - text headings
+    #7fcbc5 light teal - footer
+    #00a79d dark teal - border colors
+*/
+body {
+    background-color: #fffefc;
+    font-family: 'Sanchez', serif;
+}
+h1 span {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'McLaren', cursive;
+}
