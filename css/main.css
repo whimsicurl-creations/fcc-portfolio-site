@@ -13,23 +13,23 @@ body {
     width: 100%;
     margin: 0;
 }
-h1 span {
-    font-family: 'Oleo Script Swash Caps', cursive;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'McLaren', cursive;
     width: 100%;
+    text-align: center;
+    color: #871277;
+    margin: 20px auto;
+    text-shadow: 3px 3px 3px rgba(128,128,128,0.7);
 }
 .section-header {
+    position: relative;
     width: 100%;
-    margin: auto;
-    text-align: center;
     font-size: 36px;
-    color: #871277;
+    margin: 30px auto;
 }
 .content-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -86,22 +86,63 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     margin: 0;
     background-color: #7fcbc5;
-    border: 1px solid green;
+}
+h1 {
+    font-size: 48px;
+}
+h1 span {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 52px;
+}
+#sub-heading-text h3 {
+    font-size: 28px;
+}
+#sub-heading-text h5 {
+    font-size: 20px;
+}
+#sub-heading-text h5 span {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 26px;
 }
 
 /* Projects Section */
-.projects-wrapper {
+section#projects {
+    width: 90%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
-img {
+section#projects .content-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+section#projects .section-header {
+    margin-bottom: 15px;
+}
+.projects-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+}
+.full-width {
+    width: 100%;
+}
+.project-tile {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.project-tile img {
     max-width: 500px;
     border: 2px solid #00a79d;
     border-radius: 10px;
@@ -111,6 +152,10 @@ img {
 .img-padding {
     padding: 15px;
 }
+.project-tile a {
+    color: #871277;
+    font-weight: bold;
+}
 
 /* Contact Section */
 #contact {
@@ -118,6 +163,8 @@ img {
 }
 #contact .content-wrapper {
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
     background-color: #7fcbc5;
 }
 #social-icons-wrapper {
