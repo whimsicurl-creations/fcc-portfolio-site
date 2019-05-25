@@ -92,10 +92,22 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     background-color: #7fcbc5;
 }
+#self-photo {
+    width: 20%;
+    max-width: 300px;
+    border-radius: 11px;
+    box-shadow: 5px 5px 8px rgba(71, 71, 71, 0.7);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+#header-text {
+    margin: 10% 30% 0 0;
+}
 h1 {
     font-size: 48px;
 }
-h1 span {
+#header-text h1 span {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 52px;
 }
