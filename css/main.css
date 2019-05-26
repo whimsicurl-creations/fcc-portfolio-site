@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 99;
 }
 #navbar ul {
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Welcome Section */
 #welcome-section .content-wrapper {
     height: 100vh;
-    position: absolute;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -94,7 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #self-photo {
     width: 30%;
-    /* min-width: 200px; */
     max-width: 300px;
     border-radius: 11px;
     box-shadow: 5px 5px 8px rgba(71, 71, 71, 0.7);
@@ -196,4 +194,31 @@ section#projects .section-header {
 }
 .social-icon img {
     max-width: 75px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+        text-shadow: none;
+    }
+    #header-text h1 {
+        font-size: 38px;
+    }
+    #header-text h1 span {
+        font-size: 40px;
+    }
+    #sub-heading-text {
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    #sub-heading-text h3 {
+        font-size: 22px;
+    }
+    #sub-heading-text h5 {
+        font-size: 18px;
+    }
+    #sub-heading-text h5 span {
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 24px;
+    }
 }
